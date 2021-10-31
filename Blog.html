@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+    <!--(https://wallpaperaccess.com/full/2785815.jpg);
+    http://www.csszengarden.com/220/
+    page divided by a vertcal line down the left and one horizontal line at the top, like a notebook. 
+    they can be borders.
+shooting stars as a layover/animation when cursor goes over the left side of the page? -->
+
+    <head>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/855485f767.js" crossorigin="anonymous"></script>
+        <title>Ming Lun's Blogspot :]</title>
+
+        <style>
+            body{
+                margin:0;
+                color:black;
+                background:url(https://uhdwallpapers.org/uploads/converted/18/10/03/sunset-digital-art-image-2560x1440_74794-mm-90.jpg)no-repeat center center fixed; 
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+             background-size: cover; 
+               
+            }
+            
+            a:visited{
+                color:black;
+            }
+            h1{ 
+                font-family:courier, monospace;
+                font-size: 35px;
+                text-align:left;
+                padding-left: 20px;
+                text-decoration:underline;
+                margin-top:10px;
+            }
+            
+            #page-bar{
+               position:fixed;
+               top: 0%;
+                z-index: 1;
+                width: 100%;
+                overflow:auto;
+                background: rgba(219, 211, 199, 0);
+            }
+            #page-bar a{
+                float:right;
+                padding-left:12px;
+                padding-right:12px;
+                font-size: 30px;
+                text-decoration:none;
+            }
+            #page-bar a:hover{
+                transition:0.2s;
+                font-size:35px;
+            }
+            
+            .details{
+                float:right;
+            }
+            .about-icon{
+                font-size: 100px;
+                margin-left:27vw;
+                margin-top:-5vh;
+            }
+            .main-icon{
+                padding-left:5vw;
+            }
+            .main-icon:hover{
+                transition:0.2s;
+                font-size:120px;
+            }
+            h2{
+                font-size: 12vmin;
+                font-weight: 900;
+                line-height:1.3;
+                letter-spacing:0px;
+                font-family:papyrus, fantasy;
+                text-align:center;
+                margin-top: 35vh;
+                color:rgb(253, 234, 221);
+                
+                
+            }
+            .guide{
+                position:absolute;
+            top:135vh;
+                margin-left: 5vw;
+                width:fit-content;
+            }
+            ol{
+                margin:0px;
+                padding:0px;
+                list-style-type: none;
+            }
+            li{
+                margin-bottom: 2vw;
+                padding-bottom:3px;
+                padding-top:3px;
+            }
+            .sidecon{
+            font-size: 30px;
+            font-family:'Courier New', Courier, monospace;
+            font-weight:bold;
+            }
+            .content-list{
+            
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            font-weight:100;
+            line-height: 1.5;
+            width:fit-content;
+            
+            }
+            .listing{
+                background: rgba(218, 162, 89, 0.85);
+                border:5px double burlywood;
+                
+            border-radius: 20px;
+            }
+
+            .listing:hover{
+                background-color:rgba(221, 192, 155, 0.85);
+            border:5px double rgb(207, 164, 108);
+                transition:0.2s;
+            border-radius: 9px;
+            }
+            h4{
+           font-family:Georgia, 'Times New Roman', Times, serif;
+            }
+            .post{
+            position:relative;
+            top:40vh;
+            margin-left: 25vw;
+            margin-bottom: 3vh;
+            width:50vw;
+            border:5px double burlywood;
+            border-radius: 9px;
+            padding-left:15px;
+            padding-top:4px;
+            padding-right: 15px;
+            height: 170px;
+            background:rgba(221, 192, 155, 0.85);
+            }
+            .post:hover{
+                background: rgba(218, 162, 89, 0.85);
+                border:10px double rgb(207, 164, 108);
+                border-radius: 20px;
+                transition:0.2s;
+            }
+            
+            #wave{
+                font-size: 25px;
+            }
+            #waves{
+                margin-left: 25px;
+                margin-top: -20px;
+            }
+            a{
+                text-decoration:none;
+                color:black;
+            }
+        </style>
+    </head>
+
+    <body>
+<div id="page-bar">
+<h1>
+    Ming Lun's Blog :]
+<a href="#"><i class="fas fa-book-reader"></i> Book Review</a>
+<a href="#"><i class="fas fa-home"></i> Blog</a>
+<a href="#"><i class="fas fa-info-circle"></i> About Me</a>
+</h1>
+</div>
+
+<div class="header">
+<h2 >
+    Hello World! <br><span id="welcome">Welcome to</span> my page!
+</h2>
+
+<div class="about-icon">
+    <a href="#" target="blank" class="main-icon"><i class="fab fa-linkedin"></i></a>
+    <a href="#" target="blank" class="main-icon"><i class="fab fa-github-square"></i></a>
+    <a href="#" target="blank" class="main-icon"><i class="fas fa-envelope"></i></a>
+</div>
+
+</div>
+
+<div class="guide">
+<p class="sidecon">
+    Content!
+</p>
+<p id="waves"><i id="wave" class="fas fa-wave-square"></i><i id="wave" class="fas fa-wave-square"></i><i id="wave" class="fas fa-wave-square"></i>
+</p>
+    <ol class="content-list">
+    <li class="listing"><a href="#first">First ever blogpost!</a></li>
+    <li class="listing"><a href="#book">Book Reviews!</a></li>
+    <li class="listing"><a href="#stuff">Stuff</a></li>
+</ol>
+</div>
+<div class="post">
+    <a href=""><h4 id="first"> My first ever blogpost! <span class="details"> Date: 290121</span> </h4>   
+<p class="text">Hi there <br>Hi there <br>Hi there <br>Hi there <br>
+    </p>
+</a>
+</div>
+
+<div class="post">
+    <a href="">
+<h4 id="book"> Book reviews! <span class="details"> Date: 290121</span> </h4>
+<p class="text">I review the books that I've read! <br>I review the books that I've read! 
+<br>I review the books that I've read! <br>I review the books that I've read! <br>
+</a>
+</p>
+</div>
+
+<div class="post">
+    <a href="">
+    <h4 id="stuff">Stuff <span class="details"> Date: 290121</span> </h4>
+    
+    <p class="text">Hi there <br>Hi there <br>Hi there <br>Hi there <br>
+        </p>
+    </a>
+</div>
+
+</body>
+
+</html>
