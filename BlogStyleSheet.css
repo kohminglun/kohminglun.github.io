@@ -1,0 +1,137 @@
+body{
+    margin:0;
+    color:black;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+a:visited{
+    color:black;
+}
+
+h1{ 
+    font-family:courier, monospace;
+    font-size: 35px;
+    text-align:left;
+    padding-left: 20px;
+    text-decoration:underline;
+    margin-top:10px;
+    color:black;
+}
+
+#page-bar{
+   position:fixed;
+   top: 0%;
+    z-index: 1;
+    width: 100%;
+    overflow:auto;
+    background: rgba(219, 211, 199, 0);
+}
+#page-bar a{
+    float:right;
+    padding-left:12px;
+    padding-right:12px;
+    font-size: 30px;
+    text-decoration:none;
+}
+#page-bar a:hover{
+    transition:0.2s;
+    font-size:35px;
+}
+
+.details{
+    float:right;
+}
+
+h2{
+    font-size: 12vmin;
+    font-weight: 900;
+    line-height:1.3;
+    font-family:papyrus, fantasy;
+    color:rgb(253, 234, 221);
+}
+.guide{
+    position:absolute;
+    top:135vh;
+    margin-left: 5vw;
+    width:fit-content;
+    text-align:center;
+}
+ol{
+    margin:0px;
+    padding:0px;
+    list-style-type: none;
+}
+li{
+    margin-bottom: 2vw;
+    padding-bottom:3px;
+    padding-top:3px;
+    
+}
+.sidecon{
+font-size: 30px;
+font-family:Courier, monospace;
+font-weight:bold;
+}
+.content-list{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 20px;
+font-weight:100;
+line-height: 1.5;
+width:fit-content;
+}
+.listing{
+    background: rgba(218, 162, 89, 0.85);
+    border:5px double burlywood;
+    border-radius: 20px;
+}
+
+.listing:hover{
+    background-color:rgba(221, 192, 155, 0.85);
+border:5px double rgb(207, 164, 108);
+    transition:0.2s;
+border-radius: 9px;
+}
+h4{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight:bold;
+font-size:20px;
+margin-top:15px;
+padding-left:25px;
+
+}
+.post{
+position:relative;
+top:40vh;
+margin-left: 25vw;
+margin-bottom: 3vh;
+width:50vw;
+border:7px solid rgb(201, 141, 64);
+border-radius: 9px;
+padding-right:10px;
+height: 170px;
+background:rgba(221, 192, 155, 0.85);
+}
+.post:hover{
+    background: rgba(218, 162, 89, 0.85);
+    border:10px double rgb(172, 118, 49);
+    border-radius: 20px;
+    transition:0.2s;
+}
+
+#wave{
+    font-size: 25px;
+}
+#waves{              
+    margin-top: -20px;
+}
+
+.text{
+    font-size:18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top:-10px;
+    padding-left: 25px;
+    overflow-y: auto;
+    line-height: 1.4;
+}
