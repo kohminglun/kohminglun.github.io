@@ -10,7 +10,7 @@
     </head>
 <style>
     body{
-        background:url(https://i.stack.imgur.com/aIWX6.png);
+        background:url(https://i.stack.imgur.com/aIWX6.png) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -22,8 +22,9 @@
     .gallery {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    grid-template-rows: repeat(8, 25vw);
+    grid-template-rows: repeat(12, 15vw);
     grid-gap: 0px;
+    margin: 5vw;
 }
     .gallery_img {
     width: 100%;
@@ -32,42 +33,55 @@
 }
     .gallery_item{
         margin:5px;
-        border:5px solid black;
+        border:3px solid rgb(0,0,0);
     }
 .kafkaontheshore {
     grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-}
-.thetrial {
-    grid-column-start: 3;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 3;
 }
-.springsnow {
+.thetrial {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+    
+}
+.thestranger {
     grid-column-start: 5;
     grid-column-end: 9;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 5;
+}
+.slaughterhouse{
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 7;
 }
 .travellingcat {
     grid-column-start: 1;
     grid-column-end: 5;
     grid-row-start: 3;
-    grid-row-end: 6;
+    grid-row-end: 7;
 }
-.thestranger {
-    grid-column-start: 1;
-    grid-column-end: 5;
-    grid-row-start: 6;
-    grid-row-end: 9;
-}
-.caste {
+.springsnow {
     grid-column-start: 5;
     grid-column-end: 9;
-    grid-row-start: 6;
+    grid-row-start: 7;
+    grid-row-end: 12;
+}
+.caste {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 9;
+}
+.humankind{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 7;
     grid-row-end: 9;
 }
 </style>
@@ -85,22 +99,28 @@
 <h2>Ming's book reviews!</h2>
 <div class="gallery">
     <figure class="gallery_item kafkaontheshore">
-        <img src="https://bci.kinokuniya.com/us/jsp/images/book-img/97814/97814000/9781400079278.jpg" class="gallery_img" alt="Kafka On The Shore by Haruki Murakami">
+        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1539318846i/26436957._SX540_.png" class="gallery_img" alt="Kafka On The Shore by Haruki Murakami">
       </figure>
     <figure class="gallery_item thetrial">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/A1+S3DWDomL.jpg" class="gallery_img" alt="The Trial by Franz Kafka">
+        <img src="https://i.ebayimg.com/images/g/T3gAAOSwLEJgOkD5/s-l640.jpg" class="gallery_img" alt="The Trial by Franz Kafka">
     </figure>
     <figure class="gallery_item travellingcat">
-        <img src="https://images-na.ssl-images-amazon.com/images/I/713DrRiRbuL.jpg" class="gallery_img" alt="The Travelling Cat Chrnoicle">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/713DrRiRbuL.jpg" class="gallery_img" alt="The Travelling Cat Chrnoicle by Hiro Arikawa">
     </figure>
     <figure class="gallery_item springsnow">
         <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1361254848l/464261.jpg" class="gallery_img" alt="Spring Snow by Yukio Mishima">
     </figure>
     <figure class="gallery_item thestranger">
-        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1590930002l/49552._SY475_.jpg" class="gallery_img" alt="The Stranger by Albert Camus">
+        <img src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781681771359/the-stranger-9781681771359_hr.jpg" class="gallery_img" alt="The Stranger by Albert Camus">
     </figure>
     <figure class="gallery_item caste">
-        <img src="https://harris.uchicago.edu/files/styles/half_size/public/caste_by_isabel_wilkerson_0.jpg?itok=1G69HGG8" class="gallery_img" alt="Caste by isabel wilkerson">
+        <img src="https://cbsnews1.cbsistatic.com/hub/i/r/2020/08/28/958f483e-b0f1-41bf-afdc-787bce255208/thumbnail/640x972/a527c4e076ce7d39c5a9d692d8fa3a38/caste-cover-random-house-620.jpg" class="gallery_img" alt="Caste:The Origins of Our Discontents by isabel wilkerson">
+    </figure>
+    <figure class="gallery_item slaughterhouse">
+        <img src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/hostedimages/1563778552i/27866585._SY540_.jpg" class="gallery_img" alt="Slaughterhouse-Five by Kurt Vonnegut Jr.">
+    </figure>
+    <figure class="gallery_item humankind">
+        <img src="https://res.cloudinary.com/bloomsbury-atlas/image/upload/w_568,c_scale/jackets/9781408898956.jpg" class="gallery_img" alt="Humankind by Rutger Bregman">
     </figure>
     </div>
 </body>
