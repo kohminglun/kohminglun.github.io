@@ -25,7 +25,6 @@
             }
             
             h1{ 
-                font-family:courier, monospace;
                 font-size: 35px;
                 text-align:left;
                 padding-left: 20px;
@@ -33,11 +32,17 @@
                 margin-top:10px;
                 color:rgb(253, 234, 221);
             }
+            h1, #header-icon{   
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }
             
             #page-bar{
                position:fixed;
                top: 0%;
                 z-index: 1;
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
                 width: 100%;
                 overflow:auto;
                 background: rgba(219, 211, 199, 0);
@@ -181,10 +186,12 @@
 <div id="page-bar">
 <h1>
     Ming Lun's Blog :]
+</h1>
+<div id="header-icon">
 <a href="https://kohminglun.github.io/BookReviewMain.html"><i class="fas fa-book-reader"></i> Book Review</a>
 <a href="https://kohminglun.github.io/Blog.html"><i class="fas fa-home"></i> Blog</a>
 <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fas fa-info-circle"></i> About Me</a>
-</h1>
+</div>
 </div>
 
 <div class="header">
