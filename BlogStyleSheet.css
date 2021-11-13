@@ -16,7 +16,7 @@ h1{
     padding-left: 20px;
     text-decoration:underline;
     margin-top:10px;
-    color:rgb(206, 120, 64);
+    color:rgba(147, 82,  0,1);
 }
 h1, #header-icon{   
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -39,7 +39,7 @@ h1, #header-icon{
     padding-right:12px;
     font-size: 30px;
     text-decoration:none;
-    color:rgb(206, 120, 64);
+    color:rgba(147, 82,  0,1);
 }
 #page-bar a:hover{
     transition:0.2s;
@@ -55,7 +55,7 @@ h2{
     font-weight: 900;
     line-height:1.3;
     font-family:papyrus, fantasy;
-    color:rgb(253, 234, 221);
+    color:rgba( 13, 12, 10,1);
 }
 .guide{
     position:absolute;
