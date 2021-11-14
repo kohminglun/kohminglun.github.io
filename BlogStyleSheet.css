@@ -23,7 +23,7 @@ h1, #header-icon{
 }
 
 #page-bar{
-   position:fixed;
+   position:sticky;
    top: 0%;
     z-index: 1;
     display:flex;
