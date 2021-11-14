@@ -37,7 +37,7 @@
             }
             
             #page-bar{
-               position:fixed;
+               position:sticky;
                top: 0%;
                 z-index: 1;
                 display:flex;
@@ -45,7 +45,7 @@
                 align-items: center;
                 width: 100%;
                 overflow:auto;
-                background: rgba(219, 211, 199, 0);
+                background: rgb(129, 63, 19);
             }
             #page-bar a{
                 float:right;
@@ -84,7 +84,7 @@
                 letter-spacing:0px;
                 font-family:papyrus, fantasy;
                 text-align:center;
-                margin-top: 35vh;
+                margin-top: 25vh;
                 color:rgb(253, 234, 221);
                 
                 
@@ -93,7 +93,7 @@
                 position:absolute;
             top:135vh;
                 margin-left: 5vw;
-                width:fit-content;
+                width:15vw;
                 text-align:center;
             }
             ol{
@@ -113,12 +113,11 @@
             font-weight:bold;
             }
             .content-list{
-            
                 font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size: 20px;
             font-weight:100;
             line-height: 1.5;
-            width:fit-content;
+            width:15vw;
             
             }
             .listing{
@@ -133,6 +132,12 @@
             border:5px double rgb(207, 164, 108);
                 transition:0.2s;
             border-radius: 9px;
+            }
+            #duck{
+                width: 8vw;
+            }
+            #duck:hover{
+                transform: scaleY(-1);
             }
             h4{
            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -153,6 +158,7 @@
             padding-right:10px;
             height: 170px;
             background:rgba(221, 192, 155, 0.85);
+            overflow:auto;
             }
             .post:hover{
                 background: rgba(218, 162, 89, 0.85);
@@ -161,12 +167,7 @@
                 transition:0.2s;
             }
             
-            .wave{
-                font-size: 25px;
-            }
-            #waves{              
-                margin-top: -20px;
-            }
+            
             a{
                 text-decoration:none;
                 color:black;
@@ -179,6 +180,11 @@
                 overflow-y: auto;
                 line-height: 1.4;
             }
+            @media screen and (max-width: 690px) {
+  .text, h4, #details, #page-bar a, #page-bar a:hover, h1, .sidecon, .content-list{
+      font-size:0.9em;
+  }
+  }
         </style>
     </head>
 
@@ -207,25 +213,24 @@
 
 </div>
 
-<div class="guide">
+<nav class="guide">
+ <img id="duck" src="https://c.tenor.com/7zKZuIk31GEAAAAC/bird-dance.gif" alt="cute duck for your entertainment">
 <p class="sidecon">
     Content!
-</p>
-<p id="waves"><i class="wave fas fa-wave-square"></i><i class="wave fas fa-wave-square"></i><i class="wave fas fa-wave-square"></i>
 </p>
     <ol class="content-list">
     <li class="listing"><a href="#first">First ever blogpost!</a></li>
     <li class="listing"><a href="#book">Book Reviews!</a></li>
     <li class="listing"><a href="#classical-music">Classical Music</a></li>
 </ol>
-</div>
-<div class="post">
+</nav>
+<section class="post">
     <a href=""><h4 id="first"> Welcome to my blog! <span class="details"> Date: 290121</span> </h4>   
 <p class="text"> Welcome intruders! Here, I will talk all about <strong>this</strong> blog page - 
     why I made it, and what I am going to update here. <br>Stay tuned. [Coming Soon] 
     </p>
 </a>
-</div>
+</section>
 
 <div class="post">
     <a href="https://kohminglun.github.io/BookReviewMain.html">
