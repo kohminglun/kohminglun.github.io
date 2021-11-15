@@ -86,52 +86,45 @@
                 text-align:center;
                 margin-top: 25vh;
                 color:rgb(253, 234, 221);
-                
-                
             }
             .guide{
                 position:absolute;
-            top:135vh;
-                margin-left: 5vw;
+                top:125vh;
+                left: 5vw;
                 width:15vw;
                 text-align:center;
             }
-            ol{
-                margin:0px;
-                padding:0px;
-                list-style-type: none;
-            }
-            li{
-                margin-bottom: 2vw;
-                padding-bottom:3px;
-                padding-top:3px;
-                
-            }
+
             .sidecon{
-            font-size: 30px;
-            font-family:Courier, monospace;
+            font-size: 27px;
             font-weight:bold;
+            border-bottom: 4px solid rgba(221, 192, 155, 0.85);
             }
             .content-list{
-                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin:0px;
+            padding:0px;
+            list-style-type: none;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-size: 20px;
             font-weight:100;
             line-height: 1.5;
             width:15vw;
+            background: rgba(218, 162, 89, 0.85);
+            padding-bottom:3px;
+            padding-top:3px;
+            border-radius: 5px;
             
             }
-            .listing{
-                background: rgba(218, 162, 89, 0.85);
-                border:5px double burlywood;
-                
-            border-radius: 20px;
+            li a{
+                display:block;
+            border-right: 4px solid rgba(221, 192, 155, 0.85);
+            border-left: 4px solid rgba(221, 192, 155, 0.85);
+            border-bottom: 4px solid rgba(221, 192, 155, 0.85);
             }
 
-            .listing:hover{
+            li a:hover{
                 background-color:rgba(221, 192, 155, 0.85);
-            border:5px double rgb(207, 164, 108);
                 transition:0.2s;
-            border-radius: 9px;
             }
             #duck{
                 width: 8vw;
@@ -145,18 +138,17 @@
            font-size:20px;
            margin-top:15px;
            padding-left:25px;
-
             }
             .post{
             position:relative;
-            top:40vh;
-            margin-left: 25vw;
+            top:30vh;
+            margin-left: 23vw;
             margin-bottom: 3vh;
-            width:50vw;
+            width:60vw;
             border:7px solid rgb(201, 141, 64);
             border-radius: 9px;
             padding-right:10px;
-            height: 170px;
+            height: fit-content;
             background:rgba(221, 192, 155, 0.85);
             overflow:auto;
             }
@@ -210,20 +202,6 @@
     <a href="https://github.com/kohminglun" target="blank" class="main-icon"><i class="fab fa-github-square"></i></a>
     <a href="mailto:minglunkoh@gmail.com" target="blank" class="main-icon"><i class="fas fa-envelope"></i></a>
 </div>
-
-</div>
-
-<nav class="guide">
- <img id="duck" src="https://c.tenor.com/7zKZuIk31GEAAAAC/bird-dance.gif" alt="cute duck for your entertainment">
-<p class="sidecon">
-    Content!
-</p>
-    <ol class="content-list">
-    <li class="listing"><a href="#first">First ever blogpost!</a></li>
-    <li class="listing"><a href="#book">Book Reviews!</a></li>
-    <li class="listing"><a href="#classical-music">Classical Music</a></li>
-</ol>
-</nav>
 <section class="post">
     <a href=""><h4 id="first"> Welcome to my blog! <span class="details"> Date: 290121</span> </h4>   
 <p class="text"> Welcome intruders! Here, I will talk all about <strong>this</strong> blog page - 
@@ -236,7 +214,7 @@
     <a href="https://kohminglun.github.io/BookReviewMain.html">
 <h4 id="book"> Book reviews! <span class="details"> Date: 290121</span> </h4>
 <p class="text">"Book is a gift you can open again and again." <br>
-    Here, I will share this gift with you!
+    Here, I hope to share this gift with you!
     I will update this post whenever I finish a book!
 </p>
 </a>
@@ -247,11 +225,20 @@
     <h4 id="classical-music">Classical Music <span class="details"> Date: 290121</span> </h4>
     
     <p class="text"> Many people view classical music as boring and dated. To me, it is riveting,
-        beautiful, and it has a spontaneous streak to it. I absolutely adore it. [Coming Soon]
+        beautiful, and it has a spontaneous streak to it. [Coming Soon]
         </p>
     </a>
 </div>
 
+<nav class="guide">
+    <img id="duck" src="https://c.tenor.com/7zKZuIk31GEAAAAC/bird-dance.gif" alt="cute duck for your entertainment">
+       <ol class="content-list">
+       <li class="sidecon">Content!</li>
+       <li class="listing"><a href="#first">First ever blogpost!</a></li>
+       <li class="listing"><a href="#book">Book Reviews!</a></li>
+       <li class="listing"><a href="#classical-music">Classical Music</a></li>
+   </ol>
+   </nav>
 </body>
 
 </html>
