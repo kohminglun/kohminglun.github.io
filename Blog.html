@@ -98,7 +98,6 @@
             .sidecon{
             font-size: 27px;
             font-weight:bold;
-            border-bottom: 4px solid rgba(221, 192, 155, 0.85);
             }
             .content-list{
             margin:0px;
@@ -117,9 +116,14 @@
             }
             li a{
                 display:block;
-            border-right: 4px solid rgba(221, 192, 155, 0.85);
+                
             border-left: 4px solid rgba(221, 192, 155, 0.85);
-            border-bottom: 4px solid rgba(221, 192, 155, 0.85);
+            border-right: 4px solid rgba(221, 192, 155, 0.85);
+            border-bottom: 2px solid rgba(221, 192, 155, 0.85);
+            border-top: 2px solid rgba(221, 192, 155, 0.85);
+            }
+            #first-nav{
+                border-top: 2px solid rgba(221, 192, 155, 0.85);
             }
 
             li a:hover{
@@ -141,7 +145,7 @@
             }
             .post{
             position:relative;
-            top:30vh;
+            top:33vh;
             margin-left: 23vw;
             margin-bottom: 3vh;
             width:60vw;
@@ -175,8 +179,16 @@
             @media screen and (max-width: 690px) {
   .text, h4, #details, #page-bar a, #page-bar a:hover, h1, .sidecon, .content-list{
       font-size:0.9em;
-  }
-  }
+  }}
+  
+  @media screen 
+  and (device-width: 384px) 
+  and (device-height: 592px) 
+  and (-webkit-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+    }
+}
         </style>
     </head>
 
@@ -202,6 +214,15 @@
     <a href="https://github.com/kohminglun" target="blank" class="main-icon"><i class="fab fa-github-square"></i></a>
     <a href="mailto:minglunkoh@gmail.com" target="blank" class="main-icon"><i class="fas fa-envelope"></i></a>
 </div>
+<nav class="guide">
+    <img id="duck" src="https://c.tenor.com/7zKZuIk31GEAAAAC/bird-dance.gif" alt="cute duck for your entertainment">
+       <ol class="content-list">
+       <li class="sidecon">Content!</li>
+       <li class="listing" id="first-nav"><a href="#first">First ever blogpost!</a></li>
+       <li class="listing"><a href="#book">Book Reviews!</a></li>
+       <li class="listing"><a href="#classical-music">Classical Music</a></li>
+   </ol>
+   </nav>
 <section class="post">
     <a href=""><h4 id="first"> Welcome to my blog! <span class="details"> Date: 290121</span> </h4>   
 <p class="text"> Welcome intruders! Here, I will talk all about <strong>this</strong> blog page - 
@@ -229,16 +250,6 @@
         </p>
     </a>
 </div>
-
-<nav class="guide">
-    <img id="duck" src="https://c.tenor.com/7zKZuIk31GEAAAAC/bird-dance.gif" alt="cute duck for your entertainment">
-       <ol class="content-list">
-       <li class="sidecon">Content!</li>
-       <li class="listing"><a href="#first">First ever blogpost!</a></li>
-       <li class="listing"><a href="#book">Book Reviews!</a></li>
-       <li class="listing"><a href="#classical-music">Classical Music</a></li>
-   </ol>
-   </nav>
 </body>
 
 </html>
